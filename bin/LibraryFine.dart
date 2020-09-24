@@ -1,10 +1,10 @@
 void main() {
-  int result = libraryFine(9, 6, 2015, 6, 6, 2015);
+  var result = libraryFine(9, 6, 2015, 6, 6, 2015);
   print(result);
 }
 
 int libraryFine(int d1, int m1, int y1, int d2, int m2, int y2) {
-  int fine = 0;
+  var fine = 0;
   if (y2 > y1 || (y1 == y2 && m2 > m1) || (y1 == y2 && m1 == m2 && d2 > d1)) {
     fine = 0;
   } else {
