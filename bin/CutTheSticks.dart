@@ -1,5 +1,5 @@
 void main() {
-  var sticks = <int>[1, 2, 3, 4, 3, 3, 2, 1];
+  var sticks = <int>[4, 5, 10, 8, 11];
   var length = sticks.length;
   var min = sticks[0];
   for (var i = 0; i < length; i++) {
