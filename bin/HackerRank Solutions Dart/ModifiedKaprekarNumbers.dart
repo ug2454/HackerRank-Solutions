@@ -1,4 +1,5 @@
 void main() {
+  var count = 0;
   for (var i = 1; i <= 100; i++) {
     var square = i * i;
     var stringnumber = square.toString();
@@ -19,7 +20,11 @@ void main() {
 
       if (leftint + rightint == i) {
         print(i);
+        count++;
       }
     }
+  }
+  if (count == 0) {
+    print('INVALID RANGE');
   }
 }
