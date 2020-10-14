@@ -1,8 +1,10 @@
 void main() {
-  var n = 92512;
-  var c = 413;
-  var m = 33040;
+  var n = 75850;
+  var c = 72918;
+  var m = 69563;
   var totalbars;
+
+  
 
   var y = (n / c).floor();
 
